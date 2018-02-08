@@ -258,4 +258,6 @@ p {
   right: 10px;
   cursor: pointer;
   display: none;
+  background-color: #df662a;
+  border-color: #df662a;
 }

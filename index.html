@@ -244,31 +244,13 @@
         </div>
       </div>
     </section>
-
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Banana Joe 2018 <i class="fab fa-facebook-square"></i></p>
+        <p class="m-0 small">Copyright &copy; Banana Joe 2018</i></p>
       </div>
     </footer>
-
-    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        $('body').append('<div id="toTop" class="btn btn-info"><span class="fas fa-arrow-up"></span></div>');
-        $(window).scroll(function () {
-        if ($(this).scrollTop() != 0) {
-          $('#toTop').fadeIn();
-        } else {
-          $('#toTop').fadeOut();
-        }
-      }); 
-      $('#toTop').click(function(){
-          $("html, body").animate({ scrollTop: 0 }, 600);
-          return false;
-      });
-    });
-    </script>
+    <script src="js/totop.js"></script>
   </body>
 </html>
