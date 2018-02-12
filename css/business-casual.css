@@ -261,3 +261,8 @@ p {
   background-color: #df662a;
   border-color: #df662a;
 }
+
+.sociallink {
+  color: #000 !important;
+  text-decoration: none !important;
+}
