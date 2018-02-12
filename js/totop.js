@@ -1,14 +1,1 @@
-$(document).ready(function(){
-    $('body').append('<div id="toTop" class="btn btn-info"><span class="fas fa-arrow-up"></span></div>');
-    $(window).scroll(function () {
-    if ($(this).scrollTop() != 0) {
-      $('#toTop').fadeIn();
-    } else {
-      $('#toTop').fadeOut();
-    }
-  }); 
-  $('#toTop').click(function(){
-      $("html, body").animate({ scrollTop: 0 }, 600);
-      return false;
-  });
-});
+$(document).ready(function(){$("body").append('<div id="toTop" class="btn btn-info"><span class="fas fa-arrow-up"></span></div>'),$(window).scroll(function(){0!=$(this).scrollTop()?$("#toTop").fadeIn():$("#toTop").fadeOut()}),$("#toTop").click(function(){return $("html, body").animate({scrollTop:0},600),!1})});
